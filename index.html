@@ -1,0 +1,14 @@
+<script>
+    // @license magnet:?xt=urn:btih:1f739d935676111cfff4b4693e3816e664797050&dn=gpl-3.0.txt GPL-v3-or-Later
+    var lang = navigator.language || navigator.userLanguage;
+    if (lang.indexOf("zh-CN") >= 0) {
+        window.location.href = "zh-CN/index.html";
+    } else if (lang.indexOf("zh") >= 0 && lang.indexOf("zh-CN") < 0) {
+        window.location.href = "zh-CHT/index.html";
+    } else if (lang.indexOf("en") >= 0) {
+        window.location.href = "en/index.html";
+    } else {
+        window.location.href = "en/index.html";
+    }
+    // @license-end
+</script>

@@ -1,0 +1,188 @@
+/*for all pages*/
+/*selection*/
+::selection {
+  background: maroon;
+  color: whitesmoke
+}
+
+::-moz-selection {
+  background: maroon;
+  color: whitesmok
+}
+
+::-webkit-selection {
+  background: maroon;
+  color: whitesmok
+}
+
+h1 {
+  font-size: 2em;
+  margin: .67em 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* header */
+.header1 {
+  background-color: rgb(26, 110, 0);
+  padding: 1px;
+  text-align: center;
+}
+
+.header2 {
+  background-color: #ffffff;
+  padding: 1px;
+  text-align: center;
+}
+
+/* navigation */
+.topnav {
+  overflow: hidden;
+  background-color: rgb(145, 4, 11);
+}
+
+.topa {
+  margin-left: 10%
+}
+
+@media screen and (max-width: 600px) {
+  .topa {
+    margin-left: 7.4%
+  }
+}
+
+/* navigation link */
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #bd2c2c;
+}
+
+/*middle div*/
+.middle {
+  margin: 0 auto;
+}
+
+.middle-m {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.middle-mm {
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 600px) {
+  .middle-mm {
+    width: 85%
+  }
+}
+
+/*table*/
+.tablem table {
+  margin-right: auto;
+  margin-left: auto;
+  width: 80%;
+}
+
+@media screen and (max-width: 600px) {
+  .tablem table {
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+  }
+}
+
+.tablem tr {
+  height: 50px;
+}
+
+.tablem table,
+td,
+th {
+  border: 1px solid rgb(0, 0, 0);
+  border-collapse: collapse;
+  text-align: left;
+  padding-left: 0.5%
+}
+
+.tablem th {
+  background-color: rgb(145, 4, 11);
+  color: whitesmoke;
+}
+
+/* footer */
+.footer {
+  text-align: center;
+}
+
+.footer hr {
+  width: 92%;
+  color: grey;
+  background-color: grey;
+  border-bottom: none;
+  margin: 0 auto
+}
+
+/*color*/
+
+.redlink a:link {
+  color: #a11717;
+}
+
+.redlink a:visited {
+  color: #a11717;
+}
+
+.redlink a:hover {
+  color: #a11717;
+}
+
+.redlink a:active {
+  color: #a11717;
+}
+
+.whitelink a:link {
+  color: whitesmoke;
+}
+
+.whitelink a:visited {
+  color: whitesmoke;
+}
+
+.whitelink a:hover {
+  color: #797979;
+}
+
+.whitelink a:active {
+  color: whitesmoke;
+}
+
+.whitelink {
+  color: whitesmoke;
+}
+
+/*for js page*/
+.table-js table {
+  border-top: 1px solid #000000;
+  border-left: 1px solid #000000;
+  border-collapse: collapse;
+  border: width 5px;
+}
+
+.table-js td {
+  border-bottom: 1px solid #000000;
+  border-right: 1px solid #000000;
+  border: width 5px;
+}
